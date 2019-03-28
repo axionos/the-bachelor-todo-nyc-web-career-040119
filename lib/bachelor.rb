@@ -1,5 +1,4 @@
 def get_first_name_of_season_winner(data, season)
-  winner = ""
   data.each do |seasons, info|
     if info["status"] == "Winner"
       info["name"].split(" ").pop.to_s
