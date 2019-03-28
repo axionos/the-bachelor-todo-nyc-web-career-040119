@@ -8,7 +8,9 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |info|
+    if info["occupation"] == occupation
 
+    end
   end
 end
 
