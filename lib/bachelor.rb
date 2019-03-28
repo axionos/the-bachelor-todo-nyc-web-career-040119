@@ -45,4 +45,5 @@ def get_average_age_for_season(data, season)
       age_list << info["age"].to_i
     end
   end
+  age_list
 end
